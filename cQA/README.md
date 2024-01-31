@@ -1,10 +1,4 @@
 # Bayesian Deep Learning for Interactive Question Answering
-> presentation link: https://youtu.be/I28g2vozSjk
-
-
-## Introduction
-
-This Github repository is created for my master dissertation "Bayesian Deep Learning for Interactive Question Answering". This repo implements Bayesian deep interactive rankers with Dropout and SWAG as the infernence methods. Scripts of Experiments are included as well.
 
 ## Project Structure
 ```
@@ -77,11 +71,4 @@ Then, we use the optimal interactive rankers to get the best answer for a specif
 - For dropoutt-based rankers, they could be found in `./scripts/final_interactive/dropout`. 
 - For non-bayesian rankers, they could found in `.scripts/final_interactive/unc`. 
 - For SWAG-based rankers, they are in `scripts/final_interactive/swag`
-
-## Results
-![result](./images/result.png)
-
-
-- Bayesian Deep Ranker with MCDropout achieved the highest accuracy across all topics. For topic Apple, its accuracy is 26% higher than the non-Bayesain deep ranker
-- All Bayesian deep rankers have comparable results within only 4 interactions
 
