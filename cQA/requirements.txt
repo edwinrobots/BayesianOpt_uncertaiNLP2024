@@ -1,0 +1,7 @@
+matplotlib
+numpy
+pandas
+scipy
+torch
+tqdm
+transformers==4.30.0
