@@ -1,4 +1,4 @@
-# bayesian-deep-learning
+# Bayesian Deep Learning for Multi-document Summarisation
 
 gppl - the GPPL implementation; for more details, please see https://github.com/ukplab/tacl2018-preference-convincing.
 
